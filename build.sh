@@ -1,2 +1,2 @@
 #!/bin/bash
-docker build --tag davidporter/node-phantomjs . 
+docker build --tag davidporter/node-phantomjs-container . 
