@@ -10,4 +10,5 @@ WORKDIR /tmp/iojs
 RUN ./configure
 RUN make install 
 RUN npm install -g phantomjs
+ENV PHANTOMJS_BIN /usr/local/bin/phantomjs
 RUN sudo apt-get install fontconfig -y # Install missing font-deps for phantomjs 
